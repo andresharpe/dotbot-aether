@@ -71,7 +71,8 @@ Set `aether.conduit_path` in dotbot settings to point to your local clone of thi
 
 ## Documentation
 
-See [docs/PHASE-15-AETHER-CONDUIT-PLUGINS.md](docs/PHASE-15-AETHER-CONDUIT-PLUGINS.md) for the full design specification.
+- [Phase 15: Aether Conduit Plugins](docs/PHASE-15-AETHER-CONDUIT-PLUGINS.md) — full design specification
+- [`dotbot aether` CLI](docs/DOTBOT-AETHER-CLI.md) — CLI subcommand spec and global install architecture
 
 ## License
 
