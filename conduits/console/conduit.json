@@ -3,10 +3,19 @@
   "type": "console",
   "version": "1.0.0",
   "module": "src/AetherConsole/AetherConsole.psd1",
-  "capabilities": ["button-state", "button-icon", "strip-icon", "deck-state", "dotbot-state", "hue-bridge"],
+  "capabilities": [
+    "button-state",
+    "button-icon",
+    "strip-icon",
+    "deck-state",
+    "dotbot-state",
+    "hue-bridge"
+  ],
   "discovery": "local",
   "protocol": "http-sidecar+websocket",
-  "platforms": ["windows"],
+  "platforms": [
+    "windows"
+  ],
   "upstream": {
     "repo": "https://github.com/andresharpe/StreamDeck",
     "module": "DotBot.Sidecar",
@@ -20,5 +29,6 @@
     "process.stopped",
     "workflow.completed",
     "button.pressed"
-  ]
+  ],
+  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-console"
 }

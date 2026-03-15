@@ -3,10 +3,22 @@
   "type": "counter",
   "version": "1.0.0",
   "module": "src/AetherCounter/AetherCounter.psd1",
-  "capabilities": ["print-text", "print-receipt", "two-color", "paper-cut", "buzzer", "font-selection", "horizontal-rule"],
+  "capabilities": [
+    "print-text",
+    "print-receipt",
+    "two-color",
+    "paper-cut",
+    "buzzer",
+    "font-selection",
+    "horizontal-rule"
+  ],
   "discovery": "lan",
   "protocol": "tcp-escpos",
-  "platforms": ["windows", "linux", "macos"],
+  "platforms": [
+    "windows",
+    "linux",
+    "macos"
+  ],
   "upstream": {
     "repo": "https://github.com/andresharpe/TextPrinter",
     "module": "Printer"
@@ -16,5 +28,6 @@
     "workflow.completed",
     "reckoning.daily",
     "reckoning.weekly"
-  ]
+  ],
+  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-counter"
 }

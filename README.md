@@ -10,11 +10,11 @@ Conduits are named by their *nature*, not their hardware:
 
 | Conduit | Type | Hardware | Protocol |
 |---------|------|----------|----------|
-| **Ambient** | Light emitter | Philips Hue | HTTPS REST + DTLS |
-| **Window** | Visual display | Pixoo-64 | HTTP REST (LAN) |
-| **Sonic** | Sound + light | JBL PartyBox | Bluetooth serial |
-| **Console** | Control surface | Stream Deck | HTTP sidecar + WebSocket |
-| **Counter** | Physical record | ESC/POS Printer | TCP/IP port 9100 |
+| **[Ambient](https://github.com/andresharpe/dotbot-aether-ambient)** | Light emitter | Philips Hue | HTTPS REST + DTLS |
+| **[Window](https://github.com/andresharpe/dotbot-aether-window)** | Visual display | Pixoo-64 | HTTP REST (LAN) |
+| **[Sonic](https://github.com/andresharpe/dotbot-aether-sonic)** | Sound + light | JBL PartyBox | Bluetooth serial |
+| **[Console](https://github.com/andresharpe/dotbot-aether-console)** | Control surface | Stream Deck | HTTP sidecar + WebSocket |
+| **[Counter](https://github.com/andresharpe/dotbot-aether-counter)** | Physical record | ESC/POS Printer | TCP/IP port 9100 |
 
 ## Repository Structure
 

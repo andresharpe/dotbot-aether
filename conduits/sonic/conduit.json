@@ -3,10 +3,20 @@
   "type": "sonic",
   "version": "1.0.0",
   "module": "src/AetherSonic/AetherSonic.psd1",
-  "capabilities": ["light-patterns", "solid-color", "brightness", "speed", "zones", "dj-effects", "dj-filters"],
+  "capabilities": [
+    "light-patterns",
+    "solid-color",
+    "brightness",
+    "speed",
+    "zones",
+    "dj-effects",
+    "dj-filters"
+  ],
   "discovery": "bluetooth",
   "protocol": "bluetooth-serial",
-  "platforms": ["windows"],
+  "platforms": [
+    "windows"
+  ],
   "upstream": {
     "repo": "https://github.com/andresharpe/JblPartyBox",
     "module": "JblPartyBox"
@@ -16,5 +26,6 @@
     "task.completed",
     "task.failed",
     "workflow.completed"
-  ]
+  ],
+  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-sonic"
 }

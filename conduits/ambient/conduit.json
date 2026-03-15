@@ -3,10 +3,25 @@
   "type": "ambient",
   "version": "1.0.0",
   "module": "src/AetherAmbient/AetherAmbient.psd1",
-  "capabilities": ["radiate", "pulse", "breathe", "chase", "wave", "color-cycle", "strobe", "rainbow", "two-tone", "color-burst"],
+  "capabilities": [
+    "radiate",
+    "pulse",
+    "breathe",
+    "chase",
+    "wave",
+    "color-cycle",
+    "strobe",
+    "rainbow",
+    "two-tone",
+    "color-burst"
+  ],
   "discovery": "lan",
   "protocol": "https-rest+dtls",
-  "platforms": ["windows", "linux", "macos"],
+  "platforms": [
+    "windows",
+    "linux",
+    "macos"
+  ],
   "upstream": {
     "repo": "https://github.com/andresharpe/Hue",
     "module": "HueBridge",
@@ -19,5 +34,6 @@
     "process.started",
     "process.stopped",
     "workflow.completed"
-  ]
+  ],
+  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-ambient"
 }
