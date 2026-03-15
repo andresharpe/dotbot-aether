@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/andresharpe/dotbot-aether/main/schemas/conduit-manifest.schema.json",
+  "version": "1.0.0",
+  "conduits": [
+    {
+      "name": "ambient",
+      "path": "conduits/ambient",
+      "enabled": true
+    },
+    {
+      "name": "window",
+      "path": "conduits/window",
+      "enabled": true
+    },
+    {
+      "name": "sonic",
+      "path": "conduits/sonic",
+      "enabled": true
+    },
+    {
+      "name": "console",
+      "path": "conduits/console",
+      "enabled": true
+    },
+    {
+      "name": "counter",
+      "path": "conduits/counter",
+      "enabled": true
+    }
+  ]
+}
