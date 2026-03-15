@@ -2,30 +2,18 @@
   "name": "sonic",
   "type": "sonic",
   "version": "1.0.0",
-  "module": "src/AetherSonic/AetherSonic.psd1",
-  "capabilities": [
-    "light-patterns",
-    "solid-color",
-    "brightness",
-    "speed",
-    "zones",
-    "dj-effects",
-    "dj-filters"
-  ],
+  "description": "Sound and light conduit — JBL PartyBox integration",
+  "module": "src/DotBot.Aether.Sonic/DotBot.Aether.Sonic.psd1",
+  "repo": "https://github.com/andresharpe/dotbot-aether-sonic",
+  "capabilities": ["light-patterns", "solid-color", "brightness", "speed", "zones", "dj-effects", "dj-filters"],
   "discovery": "bluetooth",
   "protocol": "bluetooth-serial",
-  "platforms": [
-    "windows"
-  ],
-  "upstream": {
-    "repo": "https://github.com/andresharpe/JblPartyBox",
-    "module": "JblPartyBox"
-  },
-  "events": [
-    "task.started",
-    "task.completed",
-    "task.failed",
-    "workflow.completed"
-  ],
-  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-sonic"
+  "platforms": ["windows"],
+  "events": ["task.started", "task.completed", "task.failed", "workflow.completed"],
+  "settings": {
+    "sound_enabled": { "type": "boolean", "default": false },
+    "light_brightness": { "type": "integer", "default": 128, "min": 0, "max": 255 },
+    "light_speed": { "type": "integer", "default": 128, "min": 0, "max": 255 },
+    "auto_reconnect": { "type": "boolean", "default": true }
+  }
 }

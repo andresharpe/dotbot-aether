@@ -2,38 +2,19 @@
   "name": "ambient",
   "type": "ambient",
   "version": "1.0.0",
-  "module": "src/AetherAmbient/AetherAmbient.psd1",
-  "capabilities": [
-    "radiate",
-    "pulse",
-    "breathe",
-    "chase",
-    "wave",
-    "color-cycle",
-    "strobe",
-    "rainbow",
-    "two-tone",
-    "color-burst"
-  ],
+  "description": "Light emitter conduit — Philips Hue bridge integration",
+  "module": "src/DotBot.Aether.Ambient/DotBot.Aether.Ambient.psd1",
+  "repo": "https://github.com/andresharpe/dotbot-aether-ambient",
+  "capabilities": ["radiate", "pulse", "breathe", "chase", "wave", "color-cycle", "strobe", "rainbow", "two-tone", "color-burst"],
   "discovery": "lan",
   "protocol": "https-rest+dtls",
-  "platforms": [
-    "windows",
-    "linux",
-    "macos"
-  ],
-  "upstream": {
-    "repo": "https://github.com/andresharpe/Hue",
-    "module": "HueBridge",
-    "version": "2.0.0"
-  },
-  "events": [
-    "task.started",
-    "task.completed",
-    "task.failed",
-    "process.started",
-    "process.stopped",
-    "workflow.completed"
-  ],
-  "upstream_repo": "https://github.com/andresharpe/dotbot-aether-ambient"
+  "platforms": ["windows", "linux", "macos"],
+  "events": ["task.started", "task.completed", "task.failed", "process.started", "process.stopped", "workflow.completed"],
+  "settings": {
+    "success_color": { "type": "string", "default": "#00FF00" },
+    "error_color": { "type": "string", "default": "#FF0000" },
+    "effect_duration_ms": { "type": "integer", "default": 2000 },
+    "brightness_threshold": { "type": "integer", "default": 50, "min": 0, "max": 100 },
+    "auto_reconnect": { "type": "boolean", "default": true }
+  }
 }
