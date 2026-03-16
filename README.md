@@ -1,6 +1,6 @@
 # dotbot-aether
 
-Aether Conduit Plugin Collection for [dotbot-v4](https://github.com/andresharpe/dotbot-v3) — an IoT/console hardware abstraction layer that unifies diverse physical devices under a single event-driven interface.
+Aether Conduit Plugin Collection for [dotbot-v4](https://github.com/andresharpe/dotbot) — an IoT/console hardware abstraction layer that unifies diverse physical devices under a single event-driven interface.
 
 ## What is Aether?
 
